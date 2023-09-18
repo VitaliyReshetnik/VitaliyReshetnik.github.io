@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Розклад</title>
+    <style>
+        /* Styles for the top gray bar (from the "Лабораторні роботи" section) */
+        .top-bar {
+            background-color: #666;
+            height: 40px;
+            display: flex;
+            justify-content: flex-start; /* Align buttons to the left */
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        /* Styles for the top navigation menu (from the "Лабораторні роботи" section) */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px; /* Add margin to separate buttons */
+        }
+
+        /* Styles for links in the menu (from the "Лабораторні роботи" section) */
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        /* Modified link styles on hover (from the "Лабораторні роботи" section) */
+        nav ul li a:hover {
+            background-color: #333;
+        }
+
+        /* Styles for the gray and orange bars (from the "Лабораторні роботи" section) */
+        .gray-bar, .orange-bar {
+            height: 20px;
+        }
+
+        .gray-bar {
+            background-color: #666;
+        }
+
+        .orange-bar {
+            background-color: #ff9900;
+        }
+
+        /* Styles for the schedule tables to match the "Лабораторні роботи" section */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px; /* Add margin to separate tables */
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top gray bar (from the "Лабораторні роботи" section) -->
+    <div class="top-bar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html">Про мене</a></li>
+                <li><a href="Rozklad.html">Розклад</a></li>
+                <li><a href="practice.html">Практичні роботи</a></li>
+                <li><a href="lab.html">Лабораторні роботи</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Gray bar (from the "Лабораторні роботи" section) -->
+    <div class="gray-bar"></div>
+
+    <!-- Schedule tables -->
+    <table border="1">
+        <tr>
+            <th>Час</th>
+            <th>Понеділок</th>
+            <th>Вівторок</th>
+            <th>Середа</th>
+            <th>Четвер</th>
+            <th>П'ятниця</th>
+        </tr>
+        <tr>
+            <td>09:45-11:20</td>
+            <td>Об'єктно-орієнтоване програмування С#(Лк)</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>11:45-13:20</td>
+            <td>WEB-технології та WEB-дизайн(ЛК)</td>
+            <td>Іноземна мова(ПЗ)</td>
+            <td>Вища Математика(ПЗ)</td>
+            <td>Іноземна мова(ПЗ)</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>13:30-15:05</td>
+            <td>Українська мова за професійним спрямуванням(ЛК)</td>
+            <td>Іноземна мова(ПЗ)</td>
+            <td>Об'єктно-орієнтоване програмування С#(ПЗ)</td>
+            <td>WEB-технології та WEB-дизайн(ПЗ)</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>15:15-16:50</td>
+            <td>Філософія(ЛК)</td>
+            <td>None</td>
+            <td>Дослідження операцій(ЛК)</td>
+            <td>Дослідження операцій(ПЗ)</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>17:00-18:35</td>
+            <td>Вища математика(ЛК)</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+            <td>Професійна практика програмної інженерії(ПЗ)</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <th>Час</th>
+            <th>Понеділок</th>
+            <th>Вівторок</th>
+            <th>Середа</th>
+            <th>Четвер</th>
+            <th>П'ятниця</th>
+        </tr>
+        <tr>
+            <td>09:45-11:20</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>11:45-13:20</td>
+            <td>Об'єктно-орієнтоване програмування С#(Лк)</td>
+            <td>Іноземна мова(ПЗ)</td>
+            <td>None</td>
+            <td>Українська мова за професійним спрямуванням(ПЗ)</td>
+            <td>Вища математика(Лб)</td>
+        </tr>
+        <tr>
+            <td>13:30-15:05</td>
+            <td>None</td>
+            <td>Іноземна мова(ПЗ)</td>
+            <td>Вища математика(Пз)</td>
+            <td>WEB-технології та WEB-дизайн(Лб)</td>
+            <td>Дослідження операцій(Лк)</td>
+        </tr>
+        <tr>
+            <td>15:15-16:50</td>
+            <td>None</td>
+            <td>None</td>
+            <td>Об'єктно-орієнтоване програмування С#(Лб)</td>
+            <td>Філософія(Сем)</td>
+            <td>Професійна практика програмної інженерії(Лб)</td>
+        </tr>
+        <tr>
+            <td>17:00-18:35</td>
+            <td>Вища математика(ЛК)</td>
+            <td>None</td>
+            <td>None</td>
+            <td>Вища математика(Пз)</td>
+            <td>Професійна практика програмної інженерії(ПЗ)</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <th>Час</th>
+            <th>Понеділок</th>
+            <th>Вівторок</th>
+            <th>Середа</th>
+            <th>Четвер</th>
+            <th>П'ятниця</th>
+        </tr>
+        <tr>
+            <td>09:45-11:20</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>11:45-13:20</td>
+            <td>WEB-технології та WEB-дизайн(ЛК)</td>
+            <td>Іноземна мова(ПЗ)</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>13:30-15:05</td>
+            <td>Українська мова за професійним спрямуванням(ЛК)</td>
+            <td>Іноземна мова(ПЗ)</td>
+            <td>Об'єктно-орієнтоване програмування С#(ПЗ)</td>
+            <td>WEB-технології та WEB-дизайн(ПЗ)</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>15:15-16:50</td>
+            <td>Філософія(ЛК)</td>
+            <td>None</td>
+            <td>Дослідження операцій(Лб)</td>
+            <td>Дослідження операцій(ПЗ)</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>17:00-18:35</td>
+            <td>Вища математика(ЛК)</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+            <td>Професійна практика програмної інженерії(ПЗ)</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <th>Час</th>
+            <th>Понеділок</th>
+            <th>Вівторок</th>
+            <th>Середа</th>
+            <th>Четвер</th>
+            <th>П'ятниця</th>
+        </tr>
+        <tr>
+            <td>09:45-11:20</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>11:45-13:20</td>
+            <td>Об'єктно-орієнтоване програмування С#(Лк)</td>
+            <td>Іноземна мова(ПЗ)</td>
+            <td>None</td>
+            <td>Українська мова за професійним спрямуванням(Пз)</td>
+            <td>Вища математика(Лб)</td>
+        </tr>
+        <tr>
+            <td>13:30-15:05</td>
+            <td>None</td>
+            <td>Іноземна мова(ПЗ)</td>
+            <td>Вища математика(Пз)</td>
+            <td>WEB-технології та WEB-дизайн(Лб)</td>
+            <td>Дослідження операцій(Лк)</td>
+        </tr>
+        <tr>
+            <td>15:15-16:50</td>
+            <td>None</td>
+            <td>None</td>
+            <td>Об'єктно-орієнтоване програмування С#(Лб)</td>
+            <td>Філософія(Сем)</td>
+            <td>Професійна практика програмної інженерії(Лк)</td>
+        </tr>
+        <tr>
+            <td>17:00-18:35</td>
+            <td>Вища математика(ЛК)</td>
+            <td>None</td>
+            <td>None</td>
+            <td>Вища математика(Пз)</td>
+            <td>Професійна практика програмної інженерії(ПЗ)</td>
+        </tr>
+    </table>
+  
+</body>
+</html>
