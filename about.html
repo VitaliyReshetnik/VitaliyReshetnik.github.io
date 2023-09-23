@@ -2,77 +2,42 @@
 <html>
 <head>
     <title>Про мене</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
     <style>
-        /* Стилі для верхньої сірої полоски (ви можете взяти стилі зі сторінки "Головна") */
-        .top-bar {
-            background-color: #666;
-            height: 40px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 20px;
+        /* Визначення стилю для відступу тексту */
+        .content p {
+            margin-left: 20px; /* Відступ тексту параграфа */
         }
 
-        /* Стилі для навігаційного меню (ви можете взяти стилі зі сторінки "Головна") */
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-left: 10px;
-        }
-
-        /* Стилі для посилань в меню (ви можете взяти стилі зі сторінки "Головна") */
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-            padding: 5px 10px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        /* Змінені стилі посилання при наведенні миші (ви можете взяти стилі зі сторінки "Головна") */
-        nav ul li a:hover {
-            background-color: #333;
-        }
-
-        /* Основні стилі для контенту сторінки "Про мене" */
-        .content {
-            padding: 20px;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        p {
-            font-size: 16px;
+        .content h1 {
+            margin-left: 20px; /* Відступ тексту заголовка */
         }
     </style>
 </head>
+
 <body>
-    <!-- Верхня сірої полоска (зі стилів сторінки "Головна") -->
     <div class="top-bar">
         <nav>
             <ul>
                 <li><a href="index.html">Головна</a></li>
                 <li><a href="about.html">Про мене</a></li>
-                <li><a href="rozklad.html">Розклад</a></li> <!-- Посилання на сторінку розкладу -->
+                <li><a href="rozklad.html">Розклад</a></li> 
                 <li><a href="practice.html">Практичні роботи</a></li>
                 <li><a href="lab.html">Лабораторні роботи</a></li>
             </ul>
         </nav>
     </div>
     
-    <!-- Контент сторінки "Про мене" -->
     <div class="content">
-        <h1>Про мене</h1>
-        <p>Це сторінка з інформацією про мене.</p>
-        <!-- Додайте інші елементи та контент за потреби -->
+        <h1 class="title-with-outline">Я Віталій</h1>
+        <p class="text-with-outline-and-background">Я навчаюсь в університеті. Займаюсь програмуванням та вивченням різних сфер IT. Покищо нема чого цікавого розповісти</p>
+    </div>
+    
+    </div>
+    
+    </div>
+    <div class="footer">
+        &copy; 2023 Віталій Решетнік ТЦР 24 
     </div>
 </body>
 </html>
