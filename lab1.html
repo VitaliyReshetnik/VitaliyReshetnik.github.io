@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Реєстраційна форма</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+    <body>
+        <div class="top-bar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="about.html">Про мене</a></li>
+                    <li><a href="rozklad.html">Розклад</a></li>
+                    <li><a href="practice.html">Практичні роботи</a></li>
+                    <li><a href="lab.html">Лабораторні роботи</a></li>
+                </ul>
+            </nav>
+        </div>
+    <form action="process_form.php" method="POST">
+        <label for="first_name">Ім'я:</label>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+        
+        <label for="last_name">Прізвище:</label>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="confirm_password">Підтвердження паролю:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+        
+        <label for="dob">Дата народження:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+        
+        <label for="gender">Стать:</label>
+        <select id="gender" name="gender">
+            <option value="male">Чоловіча</option>
+            <option value="female">Жіноча</option>
+            <option value="other">Інша</option>
+        </select><br><br>
+        
+        <input type="submit" value="Зареєструватися">
+    </form>
+</body>
+</html>
