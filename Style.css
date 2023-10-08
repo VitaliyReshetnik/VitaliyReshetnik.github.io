@@ -1,0 +1,150 @@
+
+body {
+  background-color: #f3d3f8; 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #000000; 
+}
+
+
+.top-bar {
+  background-color: #bd20d5; 
+  color: #FFF; 
+  padding: 10px 20px; 
+  margin-top: 10px; 
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.top-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.top-bar ul li {
+  display: inline;
+}
+
+.top-bar ul li:not(:last-child) {
+  margin-right: 30px; 
+}
+
+.top-bar ul li a {
+  text-decoration: none; 
+  padding: 10px 20px; 
+  background-color: #bd20d5; 
+  color: #000000; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.top-bar ul li a:hover {
+  background-color: #f1caf7; 
+  border: 2px solid #f1caf7; 
+}
+
+
+.footer {
+  background-color: #000000; 
+  color: #FFF; 
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+table {
+  border-collapse: collapse; 
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+table th {
+  background-color: #bd20d5; 
+  color: #FFF; 
+  font-weight: bold;
+  text-align: center; 
+  padding: 10px; 
+  border: 2px solid #bd20d5; 
+}
+
+table td {
+  padding: 10px; 
+  border: 2px solid #bd20d5; 
+}
+
+
+table tr:nth-child(even) {
+  background-color: #f3d3f8; 
+}
+
+
+table td {
+  width: 100px; 
+  height: 50px; 
+  padding: 10px; 
+  border: 2px solid #bd20d5; 
+}
+
+label, input {
+  margin-top: 10px;
+}
+
+form {
+  margin-left: 25px; 
+}
+.content {
+  text-align: center; 
+}
+form#registration-form {
+  background-color: #000000;
+  color: #ffffff;
+  width: 30%; 
+  padding: 40px; /* Внутрішні відступи усередині форми */
+  border-radius: 10px; /* Закруглені кути форми */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Тінь форми */
+  margin: 20px auto; /* Позиціонування форми по центру сторінки */
+  text-align: left; /* Вирівнювання тексту ліворуч */
+}
+
+/* Стилізація полів введення */
+form#registration-form label {
+  display: block; /* Робимо мітки блоковими для вирівнювання рядків */
+  margin-bottom: 5px; /* Відступ між мітками та полями */
+}
+
+form#registration-form input[type="text"],
+form#registration-form input[type="email"],
+form#registration-form input[type="password"],
+form#registration-form select {
+  width: 100%; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+}
+
+
+form#registration-form input[type="submit"] {
+  background-color: #bd20d5; 
+  color: #fff; 
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+form#registration-form input[type="submit"]:hover {
+  background-color: #f1caf7; 
+  border: none; 
+}
