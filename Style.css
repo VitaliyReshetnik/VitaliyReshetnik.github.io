@@ -1,21 +1,19 @@
-
 body {
-  background-color: #f3d3f8; 
+  background-color: #f4f4f4;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  color: #000000; 
+  color: #000000;
 }
 
-
 .top-bar {
-  background-color: #bd20d5; 
-  color: #FFF; 
-  padding: 10px 20px; 
-  margin-top: 10px; 
+  background-color: #2f2e2f;
+  color: #fff;
+  padding: 11px 22px;
+  margin-top: 13px;
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 10px;
@@ -33,27 +31,26 @@ h1 {
 }
 
 .top-bar ul li:not(:last-child) {
-  margin-right: 30px; 
+  margin-right: 30px;
 }
 
 .top-bar ul li a {
-  text-decoration: none; 
-  padding: 10px 20px; 
-  background-color: #bd20d5; 
-  color: #000000; 
+  text-decoration: none;
+  padding: 10px 22px;
+
+  color: #ffffff;
   border-radius: 5px;
-  transition: background-color 0.3s ease, color 0.3s ease; 
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .top-bar ul li a:hover {
-  background-color: #f1caf7; 
-  border: 2px solid #f1caf7; 
+  background-color: #5f5d5f;
+  border: 2px solid #f9f6fa;
 }
 
-
 .footer {
-  background-color: #000000; 
-  color: #FFF; 
+  background-color: #000000;
+  color: #fff;
   text-align: center;
   padding: 10px 0;
   position: fixed;
@@ -61,90 +58,86 @@ h1 {
   width: 100%;
 }
 
-
 table {
-  border-collapse: collapse; 
+  border-collapse: collapse;
   width: 100%;
   margin-top: 20px;
 }
 
-
 table th {
-  background-color: #bd20d5; 
-  color: #FFF; 
+  background-color: #414141;
+  color: #fff;
   font-weight: bold;
-  text-align: center; 
-  padding: 10px; 
-  border: 2px solid #bd20d5; 
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #000000;
 }
 
 table td {
-  padding: 10px; 
-  border: 2px solid #bd20d5; 
+  padding: 10px;
+  border: 2px solid #bd20d5;
 }
-
 
 table tr:nth-child(even) {
-  background-color: #f3d3f8; 
+  background-color: #b9b9b9;
 }
-
 
 table td {
-  width: 100px; 
-  height: 50px; 
-  padding: 10px; 
-  border: 2px solid #bd20d5; 
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid #bd20d5;
 }
 
-label, input {
+label,
+input {
   margin-top: 10px;
 }
 
 form {
-  margin-left: 25px; 
+  margin-left: 25px;
 }
 .content {
-  text-align: center; 
+  text-align: center;
+  color: f4f4f4;
 }
 form#registration-form {
   background-color: #000000;
   color: #ffffff;
-  width: 30%; 
-  padding: 40px; /* Внутрішні відступи усередині форми */
-  border-radius: 10px; /* Закруглені кути форми */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Тінь форми */
-  margin: 20px auto; /* Позиціонування форми по центру сторінки */
-  text-align: left; /* Вирівнювання тексту ліворуч */
+  width: 30%;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  text-align: left;
 }
 
-/* Стилізація полів введення */
 form#registration-form label {
-  display: block; /* Робимо мітки блоковими для вирівнювання рядків */
-  margin-bottom: 5px; /* Відступ між мітками та полями */
+  display: block;
+  margin-bottom: 5px;
 }
 
 form#registration-form input[type="text"],
 form#registration-form input[type="email"],
 form#registration-form input[type="password"],
 form#registration-form select {
-  width: 100%; 
-  padding: 10px; 
-  margin-bottom: 15px; 
-  border: 1px solid #ccc; 
-  border-radius: 5px; 
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-
 form#registration-form input[type="submit"] {
-  background-color: #bd20d5; 
-  color: #fff; 
+  background-color: #bd20d5;
+  color: #fff;
   padding: 10px 20px;
-  border: none; 
-  border-radius: 5px; 
-  cursor: pointer; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 form#registration-form input[type="submit"]:hover {
-  background-color: #f1caf7; 
-  border: none; 
+  background-color: #f1caf7;
+  border: none;
 }
